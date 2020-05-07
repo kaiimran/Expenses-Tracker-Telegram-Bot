@@ -2,11 +2,13 @@
 Send your expenses to a telegram bot and it will automatically insert the data to your google spreadsheet.
 
 **Chat examples:**
-![Example 1](example1.jpg)
-![Example 2](example2.jpg)
+
+<img src="example1.jpg" alt="example1" width="50%">
+<img src="example2.jpg" alt="example2" width="50%">
 
 __Spreadsheet example:__
-![Spreadsheet example](spreadsheet.jpg)
+
+<img src="spreadsheet.jpg" alt="Spreadsheet example" width="50%">
 
 * Don't forget to select function setWebhook() and run in google script first.
 * There are 4 things in the Code.gs that need to be replaced by you which is :
