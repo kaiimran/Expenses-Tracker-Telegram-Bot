@@ -29,7 +29,8 @@ function doPost(e) {
   var first_name = contents.message.from.first_name;
   
   //check if sender's id is the same with the owner's id, you can allow for more than 1 user by adding ||
-  if(id === 696969) {
+  //Search @userinfobot in telegram to get your UserId, then replace it to the code below
+  if(id === 69...) {
     //get your spreadsheet id after https://docs.google.com/spreadsheets/d/...
     var ssId = "";
     //open the spreadsheet and choose which sheet
