@@ -49,9 +49,14 @@ function doPost(e) {
     }
     else if (text == "Delete last") {
       var lastRow = expenseSheet.getLastRow();
-      var lastRowValues = expenseSheet.getRange(lastRow, 2, 1, 2);
-      sendMessage(id, "Deleting: " + lastRowValues.getValues() );
-      expenseSheet.deleteRow(lastRow);
+      if (lastRow > 4.0) {
+        var lastRowValues = expenseSheet.getRange(lastRow, 2, 1, 2);
+        sendMessage(id, "Deleting: " + lastRowValues.getValues() );
+        expenseSheet.deleteRow(lastRow);
+      }
+      else {
+        sendMessage(id, "No more item the sheet.");
+      }
     }
     else {
       if(text.indexOf("-") !== -1) {
