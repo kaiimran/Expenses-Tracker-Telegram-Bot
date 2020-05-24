@@ -6,6 +6,9 @@ Send your expenses to a telegram bot and it will automatically insert the data t
 <img src="example1.jpg" alt="example1" width="50%">
 <img src="example2.jpg" alt="example2" width="50%">
 
+If unauthorized users search for your bot username and try to spam your sheet, it will respond this.
+<img src="unauthorized-spam.jpg" alt="example2" width="50%">
+
 __Spreadsheet example:__
 
 <img src="spreadsheet.jpg" alt="Spreadsheet example" width="50%">
@@ -16,7 +19,7 @@ __Spreadsheet example:__
   * webApUrl
   * UserId
   * spreadsheet id.
-* Make a spreadsheet just like the example photo given.
+* Make a sheet just like the sheet in the example photo.
 * Set "=Sum(C:C)" in cell B2 and "=B1-B2" in cell B3.
 
 ### 7 additional features that I have created so far.
